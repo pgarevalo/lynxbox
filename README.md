@@ -48,7 +48,7 @@ lynxbox/
 Al no requerir compilación ni dependencias de Node, puedes levantar un servidor local ligero desde la carpeta del proyecto:
 
 ```bash
-python3 -m http.server 8000 --directory /home/pgarevalo/Projects/lynxbox
+python3 -m http.server 8000
 ```
 
 Después abre **`http://localhost:8000`** en tu navegador.
@@ -59,7 +59,7 @@ Después abre **`http://localhost:8000`** en tu navegador.
 
 ### Subir el repositorio a GitHub
 ```bash
-cd /home/pgarevalo/Projects/lynxbox
+cd lynxbox
 git add .
 git commit -m "Initial static website for Lynx Box Training Center"
 git remote add origin git@github.com:TU_USUARIO/lynxbox.git
