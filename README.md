@@ -1,6 +1,6 @@
 # Lynx Box Training Center — Sitio Web Estático
 
-Sitio web estático, ligero, accesible y *mobile-first* para **Lynx Box Training Center** (`@lynxbox.center` · C. Ages, 11, C, Fuencarral-El Pardo, 28050 Madrid · Tel. `634 249 847`).
+Sitio web estático, ligero, accesible y *mobile-first* para **Lynx Box Training Center**.
 
 Construido exclusivamente con **HTML5 semántico**, **CSS moderno** (variables CSS, Flexbox/Grid, contraste WCAG AA+) y **JavaScript vanilla mínimo**, sin frameworks ni herramientas de compilación (*zero build step*), listo para alojarse directamente desde GitHub.
 
@@ -66,14 +66,8 @@ git remote add origin git@github.com:TU_USUARIO/lynxbox.git
 git push -u origin main
 ```
 
-### Opción A: GitHub Pages
+### GitHub Pages
 1. Entra en tu repositorio en GitHub → **Settings** → **Pages**.
 2. En **Build and deployment → Source**, elige **Deploy from a branch**.
 3. Selecciona la rama `main` y la carpeta `/ (root)` y pulsa **Save**.
 4. En ~1 minuto tu web estará activa en `https://TU_USUARIO.github.io/lynxbox/` (o en tu dominio propio añadiendo un archivo `CNAME`).
-
-### Opción B: Cloudflare Pages
-1. Entra en el panel de Cloudflare → **Workers & Pages** → **Create** → **Pages** → **Connect to Git**.
-2. Selecciona el repositorio `lynxbox`.
-3. Deja **Framework preset** en `None`, **Build command** vacío y **Build output directory** en `/`.
-4. Pulsa **Save and Deploy** para obtener CDN global, HTTPS automático y despliegues instantáneos en cada `git push`.
